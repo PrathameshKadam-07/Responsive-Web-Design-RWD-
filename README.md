@@ -7,11 +7,12 @@ This repository contains a collection of responsive web design (RWD) projects bu
 
 ## 🚀 Projects List
 
-| Project Name     | Description                              |
-|------------------|------------------------------------------|
-| Landing Page     | A modern landing page layout.            |
-| Portfolio Site   | A personal portfolio template.           |
-| Login Form       | Responsive login form with animations.   |
+| Project Name         | Description                              |
+|----------------------|------------------------------------------|
+| Calculator           | A simple and responsive calculator built using HTML, CSS, and JavaScript. It supports basic arithmetic operations like addition, subtraction, multiplication, and division, and works smoothly on all screen sizes.            |
+| Login Page           | A personal portfolio template.           |
+| Login Page           | Responsive login form with animations.   |
+| Coffee_Shop_Page     | Responsive login form with animations.   |
 
 ---
 
@@ -25,8 +26,8 @@ This repository contains a collection of responsive web design (RWD) projects bu
 
 
 ## 📁 Folder Structure
-├── landing-page/
-│ ├── index.html
-│ ├── style.css
-│ └── README.md
-├── portfolio-site/
+├── Calculator
+├── Login Page
+├── Login Page
+├── Coffee_Shop_Page
+

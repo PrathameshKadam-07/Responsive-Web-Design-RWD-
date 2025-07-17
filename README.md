@@ -4,7 +4,6 @@ This repository contains a collection of responsive web design (RWD) projects bu
 
 ---
 
----
 
 ## 🚀 Projects List
 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculator.js"></script>
+<link rel="stylesheet" href="calculator.css">
+<style>
+    .cal{
+        position: relative;
+        text-align: center;
+        font-size: 20px;
+        color: whites;
+        transform: scale(1.20);
+    }
+</style>
+</head>
+<body>
+    <p class="cal"><b>CALCULATOR</b></p>
+
+   <table align="center">
+    <tr><th colspan="4"><input type="text" id = "area"></th></tr>
+    <tr align="center">
+        <td><input class="a" type="button" value="1" onclick="one()"></td>
+        <td><input class="a" type="button" value="2" onclick="two()"></td>
+        <td><input class="a" type="button" value="3" onclick="three()"></td>
+        <td><input class="a" id="d" type="button" value="C" onclick="C()"></td>
+    </tr>
+    <tr align="center">
+        <td><input class="a" type="button" value="4" onclick="four()"></td>
+        <td><input class="a" type="button" value="5" onclick="five()"></td>
+        <td><input class="a" type="button" value="6" onclick="six()"></td>
+        <td><input class="a" id="d" type="button" value="AC" onclick="AC()"></td>
+    </tr>
+    <tr align="center">
+        <td><input class="a" type="button" value="7" onclick="seven()"></td>
+        <td><input class="a" type="button" value="8" onclick="eight()"></td>
+        <td><input class="a" type="button" value="9" onclick="nine()"></td>
+        <td><input class="a" type="button" value="0" onclick="zero()"></td>
+    </tr>
+    <tr align="center">
+        <td><input class="a" id="d" type="button" value="+" onclick="add()"></td>
+        <td><input class="a" id="d" type="button" value="-" onclick="sub()"></td>
+        <td><input style="padding-top: 15px;" class="a" id="d" type="button" value="*" onclick="mul()"></td>
+        <td><input class="a" id="d" type="button" value="/" onclick="div()"></td>
+    </tr>
+    <tr align="center">
+        <td colspan="4" ><input class="b" type="button" value="ANSWER" onclick="ans()"></td>
+    </tr>
+   </table> 
+</body>
+</html>

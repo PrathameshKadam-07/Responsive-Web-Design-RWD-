@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Service Centre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://media.istockphoto.com/id/2168533566/photo/car-mechanic-fixing-the-car-in-car-repair-shop-young-engineer-checking-the-car-and-fixing.webp?a=1&b=1&s=612x612&w=0&k=20&c=PanQDDaQyhjh3bZaN6TuHSBTMPLn6IgsUuN4zz-PAVc=') no-repeat center center/cover;
+            background-size: cover;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: slideUp 1.5s ease-in-out;
+        }
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .package {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            background: #ecf0f1;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .package:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .package h2 {
+            color: #2980b9;
+        }
+        .book-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+            animation: pulse 1.5s infinite alternate;
+        }
+        .book-btn:hover {
+            background-color: #2ecc71;
+            transform: scale(1.1);
+        }
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.05); }
+        }
+        
+        .call-btn {
+            display: inline-block;
+            padding: 15px 25px;
+            margin-top: 20px;
+            background-color: #e74c3c;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .call-btn:hover {
+            background-color: #c0392b;
+            transform: scale(1.1);
+        }
+        
+        .enquiry-form {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background: #ecf0f1;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .enquiry-form h2 {
+            color: #2980b9;
+        }
+        .enquiry-form input[type="text"], .enquiry-form input[type="tel"], .enquiry-form select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .enquiry-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .enquiry-form button[type="submit"] {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .enquiry-form button[type="submit"]:hover {
+            background-color: #2ecc71;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Car Service Centre</h1>
+        
+        <div class="package">
+            <h2>Basic Service Package - ₹999</h2>
+            <p>Includes engine oil change, oil filter replacement, and general check-up.</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+        
+        <div class="package">
+            <h2>Standard Service Package - ₹1999</h2>
+            <p>Includes everything in Basic, plus air filter cleaning, brake check, and battery inspection.</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+        
+        <div class="package">
+            <h2>Premium Service Package - ₹3999</h2>
+            <p>Includes all services in Standard, plus wheel alignment, AC service, and interior cleaning.</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+        
+        <button class="call-btn" onclick="window.location.href='tel:+11234567890';">Call Now</button>
+        
+        <div class="enquiry-form">
+            <h2>Enquire About Our Services</h2>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                <input type="text" name="car-model" placeholder="Car Model" required>
+                <select name="service-type" required>
+                    <option value="" disabled selected>Choose Servicing Type</option>
+                    <option value="Basic">Basic Service</option>
+                    <option value="Standard">Standard Service</option>
+                    <option value="Premium">Premium Service</option>
+                </select>
+                <textarea name="message" placeholder="Additional Details (Optional)"></textarea>
+                <button type="submit">Enquire Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -10,9 +10,9 @@ This repository contains a collection of responsive web design (RWD) projects bu
 | Project Name         | Description                              |
 |----------------------|------------------------------------------|
 | Calculator           | A simple and responsive calculator built using HTML, CSS, and JavaScript. It supports basic arithmetic operations like addition, subtraction, multiplication, and division, and works smoothly on all screen sizes.            |
-| Login Page           | A personal portfolio template.           |
-| Login Page           | Responsive login form with animations.   |
-| Coffee_Shop_Page     | Responsive login form with animations.   |
+| Login Page           | A clean and responsive login page designed using HTML and CSS. Features a modern user interface with input validation and mobile-friendly layout, suitable for integration into web apps or websites.           |
+| Car_service_page           | A responsive and user-friendly web page designed for car service centers. Includes service listings, booking form, and contact information — ideal for showcasing automotive services online.   |
+| Coffee_Shop_Page     | A visually appealing and responsive web page for a coffee shop, built using HTML and CSS. Showcases menu items, shop ambiance, and contact details — perfect for promoting cafés online.  |
 
 ---
 
@@ -28,6 +28,6 @@ This repository contains a collection of responsive web design (RWD) projects bu
 ## 📁 Folder Structure
 ├── Calculator
 ├── Login Page
-├── Login Page
+├── Car_service_page
 ├── Coffee_Shop_Page
 

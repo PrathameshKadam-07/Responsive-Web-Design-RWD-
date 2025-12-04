@@ -26,8 +26,9 @@ This repository contains a collection of responsive web design (RWD) projects bu
 
 
 ## 📁 Folder Structure
+```bash
 ├── Calculator
 ├── Login Page
 ├── Car_service_page
 ├── Coffee_Shop_Page
-
+```
